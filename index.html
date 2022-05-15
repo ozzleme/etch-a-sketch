@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=yes">
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Zen+Kurenaido&display=swap" rel="stylesheet">
+    <title> 🖌️ Etch-A-Sketch</title>
+</head>
+
+<body>
+    <div class="flex-container">
+        <div class ="title"><h1>Etch-A-Sketch</h1></div>
+        <div class="mode">Mode: Coloring </div>
+        <div class="buttons">
+            <button  id="black" type="button" onclick="changeColor('black')">Black</button>
+            <button id="rainbow" type="button" onclick="changeColor('random')">Rainbow</button>
+            <button  id="eraser" type="button" onclick="changeColor('white')">Eraser</button>
+            <button id="clear" type="button" onclick="resetBoard()" >Clear</button>
+            </div>
+        <div class="grid"></div>
+        
+        </div>
+        <div class = "grid-size">
+        <input type="text" placeholder="Enter a number" value="" onchange="changePixelSize(this.value)"/>
+        <button id="setGridSize" type="button">Set Pixel Size</button>
+        </div>
+<script src="script.js"></script>
+</body>
+</html>
