@@ -14,13 +14,13 @@ body {
     text-align: center;
     font-family: 'Montserrat', sans-serif;
     font-family: 'Zen Kurenaido', sans-serif;
-    font-size: 30px;
+    font-size: 15px;
 
 }
 
 .grid {
-    width: 500px;
-    height: 500px;
+    width: 400px;
+    height: 400px;
     display: grid;
     border: 6px solid black;
 }
